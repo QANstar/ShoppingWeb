@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="139.224.221.148" id="6d57ee18-9626-4e3d-aeed-5004e2dbf7e3" port="88" customName="QANstar" nameFormat="CUSTOM" username="QANstar">
+        <option name="customName" value="QANstar" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

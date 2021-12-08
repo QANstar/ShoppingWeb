@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: none;
+    justify-content: center;
+    position: fixed;
+}
+
+.formBox {
+    color: #fff;
+    background-color: rgba(71, 71, 71, 0.6);
+    border-radius: 8px;
+    padding: 30px;
+    width: 25vw;
+}
+
+.formBox h2{
+    color: white;
+}
+
+.formButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.fcButton {
+    padding: 0.8em 2em;
+    letter-spacing: 0.1em;
+    background: #FFCCCC;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    float: right;
+    width: 100%;
+    margin: 10px 0;
+}
+.fcButton:hover {
+    background: #ffbbbb;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.fcButton2 {
+    padding: 0.8em 2em;
+    letter-spacing: 0.1em;
+    background: #3b8df6;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    float: right;
+    width: 100%;
+    margin: 10px 0;
+}
+.fcButton2:hover {
+    background: #086cec;
+    color: #ffffff;
+    font-weight: 700;
+}

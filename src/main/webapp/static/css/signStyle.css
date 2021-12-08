@@ -1,0 +1,114 @@
+* {
+    transition: 0.2s;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: none;
+    position: fixed;
+}
+
+.signMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signBox{
+    color: #323232;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid hsla(0,0%,100%,0);
+    padding: 40px 56px;
+    height: 95vh;
+    width: 30vw;
+}
+
+.leftText{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.bigBox{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0;
+}
+
+button,
+input[type=text] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+.fc {
+    position: relative;
+    display: inline-block;
+    margin: 18px 0;
+    width: 100%;
+}
+.fc input,
+.fc label {
+    padding-top: 10px;
+    border: none;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid #eaeaea;
+}
+.fc input {
+    font-weight: bold;
+    outline: 0;
+    width: 100%;
+    background: transparent;
+    color: #747474;
+    display: block;
+}
+.fc input:hover {
+    border-bottom-color: #FFCC99;
+}
+.fc input:focus {
+    border-bottom-color: #FFCCCC;
+}
+.fc label {
+    border-bottom-color: transparent;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #747474;
+}
+.fc input:focus ~ label,
+.fc input:valid ~ label {
+    margin: -1.6em 0 0;
+    color: #323232;
+}
+.fc input:hover ~ label {
+    color: #323232
+}
+.fc button {
+    padding: 0.8em 2em;
+    letter-spacing: 0.1em;
+    background: #FFCCCC;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    float: right;
+}
+.fc button:hover {
+    background: #ffbbbb;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+h1{
+    color: #323232;
+    font-size: 36px;
+}
